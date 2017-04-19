@@ -6,6 +6,7 @@
 </head>
 <body>
 	<header class="main-header">
+		<img src="" alt="Барбершоп">
 		<nav class="main-navigation">
 			<ul>
 				<li>
@@ -39,15 +40,13 @@
 				<li>
 					<a href="#">Магазин</a>
 				</li>
-				<li>
-					<a href="#">Средства для ухода</a>
-				</li>
-	 		</ul>
+		 	</ul>
+		 	<p>Средства для ухода</p>
  		</nav>
 			
-			<div class="vendor">
+			<form action="#" method="post">
 				<h2>ПРОИЗВОДИТЕЛИ:</h2>
-				<form action="#" method="post">
+				<div class="brend">
 					<input type="checkbox" name="baxter" id="baxter-id" checked="">
 					<label for="baxter-id"> BAXTER OF CALIFOGNIA </label>
 					<br>
@@ -65,12 +64,10 @@
 					<br>
 					<input type="checkbox" name="american" id="american-id" checked="">
 					<label for="american-id"> AMERICAN CREW </label>
-				</form>
-			</div>	
+		        </div>
 
-			<div class="products">
 	 			<h2>ГРУППЫ ТОВАРОВ:</h2>
-	 			<form action="#" method="post">
+	 			<div class="products">
 	  				<label> 
 	  					<input type="radio" name="products" value="razor">
 	 					БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ 
@@ -86,8 +83,9 @@
 	 					АКСЕССУАРЫ 
 	 				</label>
 	 				<a href="#">ПОКАЗАТЬ</a>
-			</div>
- 			
+	 			</div>
+			</form>
+                
  			<section class="catalog" >
  				<div class="catalog-item">
  					<img src="#" alt="Набор для путешествий">
@@ -127,12 +125,12 @@
  				</div>
  			</section>
 
- 			<div class="page">
+ 			<nav class="page">
 	 			<a href="#" class="btn">1</a>
-	 			<a href="#" class="btn">2</a>
+	 			<a class="btn">2</a>
 	 			<a href="#" class="btn">3</a>
 	 			<a href="#" class="btn">4</a>	 
- 			</div>
+ 			</nav>
  	</main>
  	<footer class="main-footer">
  		<section class="footer-contacts">
@@ -154,4 +152,4 @@
  	</footer>
 </body>
 
-</html>>
+</html>
